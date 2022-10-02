@@ -24,7 +24,7 @@
                    <a href="#" class="navbar-item">Alterar pessoa</a> 
                 </li>
                 <li>
-                   <a href="#" class="navbar-item">Exclir pessoa</a> 
+                   <a href="#" class="navbar-item">Excluir pessoa</a> 
                 </li>
             </ul>
         </nav>
