@@ -33,7 +33,7 @@
 
 
     <div class="site-content">
-       
+       @yield('content')
     </div>
 
     <footer id="site-content-footer">
