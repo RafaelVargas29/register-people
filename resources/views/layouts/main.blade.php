@@ -15,7 +15,7 @@
         <nav>
             <ul class="navbar">
                 <li>
-                   <a href="#" class="navbar-item">Cadastrar pessoa</a> 
+                   <a href="/create" class="navbar-item">Cadastrar pessoa</a> 
                 </li>
                 <li>
                    <a href="#" class="navbar-item">Mostrar pessoas</a> 
