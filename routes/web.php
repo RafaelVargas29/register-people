@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\RegisterPeopleController;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/create', function () {
-    return view('operations/create');
-});
+Route::get('/create', [RegisterPeopleController::class, 'create']);
+Route::post('/operations/store', [RegisterPeopleController::class, 'store']);
+
